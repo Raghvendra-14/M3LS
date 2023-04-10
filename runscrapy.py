@@ -5,11 +5,10 @@ languages = ["english", "japanese", "hindi", "tamil", "sinhala", "french", "bang
 
 print("Available languages are: ", languages)
 
-# Prompt the user to input the language names
-language_names = input("Enter one or more language names separated by spaces: ").split()
-
-# Filter the language names to include only those that are available
-language_names = [language_name for language_name in language_names if language_name in languages]
+# Just for demo purpose nepali is hardcoded
+# User can append/modify below list with any of the above languages
+# the scraping code will run for the languages present in "languages_list"
+language_names = ['nepali']
 
 # Loop through the selected language names
 for language_name in language_names:
