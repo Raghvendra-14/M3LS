@@ -6,13 +6,20 @@ This repository contains data and code for our EACL 2023 paper "Large Scale Mult
 Please cite this paper if you use our code or data.
 
 ```
-@misc{verma2023large,
-title={Large Scale Multi-Lingual Multi-Modal Summarization Dataset},
-author={Yash Verma and Anubhav Jangra and Raghvendra Kumar and Sriparna Saha},
-year={2023},
-eprint={2302.06560},
-archivePrefix={arXiv},
-primaryClass={cs.CL}
+@inproceedings{verma-etal-2023-large,
+    title = "Large Scale Multi-Lingual Multi-Modal Summarization Dataset",
+    author = "Verma, Yash  and
+      Jangra, Anubhav  and
+      Verma, Raghvendra  and
+      Saha, Sriparna",
+    booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics",
+    month = may,
+    year = "2023",
+    address = "Dubrovnik, Croatia",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.eacl-main.263",
+    pages = "3620--3632",
+    abstract = "Significant developments in techniques such as encoder-decoder models have enabled us to represent information comprising multiple modalities. This information can further enhance many downstream tasks in the field of information retrieval and natural language processing; however, improvements in multi-modal techniques and their performance evaluation require large-scale multi-modal data which offers sufficient diversity. Multi-lingual modeling for a variety of tasks like multi-modal summarization, text generation, and translation leverages information derived from high-quality multi-lingual annotated data. In this work, we present the current largest multi-lingual multi-modal summarization dataset (M3LS), and it consists of over a million instances of document-image pairs along with a professionally annotated multi-modal summary for each pair. It is derived from news articles published by British Broadcasting Corporation(BBC) over a decade and spans 20 languages, targeting diversity across five language roots, it is also the largest summarization dataset for 13 languages and consists of cross-lingual summarization data for 2 languages. We formally define the multi-lingual multi-modal summarization task utilizing our dataset and report baseline scores from various state-of-the-art summarization techniques in a multi-lingual setting. We also compare it with many similar datasets to analyze the uniqueness and difficulty of M3LS. The dataset and code used in this work are made available at {``}https://github.com/anubhav-jangra/M3LS{''}.",
 }
 ```
 citation bibtex will change post the conference.
